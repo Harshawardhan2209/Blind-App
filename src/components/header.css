@@ -1,0 +1,34 @@
+.header {
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin: 5px;
+    border-color: red;
+    background-color: red;
+}
+
+.logo {
+    padding: 10px;
+    border-radius: 2px;
+}
+
+.logo > img {
+    width: 100px;
+}
+
+.nav-items {
+    padding: 0px 20px;
+}
+
+.nav-items > ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-items > ul > li > h5 {
+    padding: 10px;
+    margin: 5px;
+    font-size: 24px;
+    color: antiquewhite;
+}

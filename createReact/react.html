@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React CDN Template</title>
+    <link rel="styleSheet" href="./react.css">
+</head>
+<body>
+    <h1> Top of root</h1>
+    <!--react code will affect root element only rest of the html is rendered as it is-->
+    <div id="root">
+        <!-- replaced by react code-->
+        <h1>  hi there !!</h1>
+    </div>
+    <h1>  Hola </h1>    
+
+    <!-- React CDN Links -->
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <!-- Your React App Script -->
+    <script src="./App.js">
+    //Added external src file with path
+// const heading  = React.createElement("h1", {}, "Hello From React");
+// const root = ReactDOM.createRoot(document.getElementById('root'));
+// root.render(heading);
+    </script>
+</body>
+</html>
